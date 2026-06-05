@@ -58,7 +58,7 @@ export default function Vehicles() {
                 {/* Asset Placeholder */}
                 <div className="w-full md:w-1/2 aspect-square md:aspect-auto md:h-full relative flex items-center justify-center p-4">
                   <img
-                    src={`/${v.image}`}
+                    src={`${v.image}`}
                     alt={v.category}
                     className={`w-full h-full object-contain transition-all duration-500 ease-in-out z-10 ${dropShadowClass}`}
                   />
