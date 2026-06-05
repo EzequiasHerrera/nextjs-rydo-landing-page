@@ -4,18 +4,18 @@ export default function Footer() {
   return (
     <footer id="faq" className="bg-[#020202] py-10 lg:py-16 border-t-2 border-t-[#ff009d]">
       <div className="container mx-auto px-6">
-        
+
         <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-0 pb-10 lg:pb-16">
-          
+
           {/* Logo Section */}
           <div className="lg:w-[20%] flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left lg:pr-8 lg:border-r border-white/5">
-             <div className="flex flex-col items-center lg:items-start">
-               <img src="/logo.svg" alt="Logo" className="h-10 w-auto object-contain mb-1" style={{ minWidth: '120px' }} />
-               <div className="flex items-center space-x-1 mt-1">
-                 <span className="w-1 h-3 bg-white/50"></span>
-                 <span className="text-[10px] font-bold tracking-[0.2em] text-white/50 uppercase">Movete Distinto</span>
-               </div>
-             </div>
+            <div className="flex flex-col items-center lg:items-start">
+              <img src="assets/img/logotexto.png" alt="Logo" className="h-10 w-auto object-contain mb-1" style={{ minWidth: '120px' }} />
+              <div className="flex items-center space-x-1 mt-1">
+                <span className="w-1 h-3 bg-white/50"></span>
+                <span className="text-[10px] font-bold tracking-[0.2em] text-white/50 uppercase">Movete Distinto</span>
+              </div>
+            </div>
           </div>
 
           <div className="lg:w-[55%] grid grid-cols-2 sm:grid-cols-3 gap-8 lg:gap-0 text-center lg:text-left">
@@ -54,11 +54,11 @@ export default function Footer() {
 
           {/* Contact Section */}
           <div className="lg:w-[25%] flex flex-col items-center lg:items-end space-y-3 lg:pl-8 mt-4 lg:mt-0">
-             <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Escribinos por Whatsapp</span>
-             <a href="https://wa.me/something" className="flex items-center space-x-2 text-[#ff009d] hover:text-[#ff009d]/80 transition-colors">
-               <MessageCircle size={28} />
-               <span className="text-2xl font-light">11 1234 5678</span>
-             </a>
+            <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Escribinos por Whatsapp</span>
+            <a href="https://wa.me/something" className="flex items-center space-x-2 text-[#ff009d] hover:text-[#ff009d]/80 transition-colors">
+              <MessageCircle size={28} />
+              <span className="text-2xl font-light">11 1234 5678</span>
+            </a>
           </div>
 
         </div>
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Copyright separator */}
         <div className="border-t border-white/10 pt-8 flex items-center">
           <p className="text-[10px] text-zinc-600 font-medium">
-            © 2024. Todos los derechos reservados.
+            Eden Software © 2026 Todos los derechos reservados.
           </p>
         </div>
 

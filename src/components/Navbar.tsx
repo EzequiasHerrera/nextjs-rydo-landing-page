@@ -53,23 +53,22 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#050505]/90 backdrop-blur-md py-4 border-b border-white/5' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
-        
+
         {/* Logo */}
         <div className="flex items-center">
           {/* Logo placeholder, to be replaced by actual SVG later */}
-          <img src="/logo.svg" alt="Logo" className="h-8 w-auto text-white object-contain" style={{ minWidth: '100px' }} />
+          <img src="assets/img/logotexto.png" alt="Logo" className="h-8 w-auto text-white object-contain" style={{ minWidth: '100px' }} />
         </div>
 
         {/* Desktop Links */}
         <div className="hidden lg:flex items-center space-x-6 lg:space-x-8">
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
+            <a
+              key={link.name}
               href={`#${link.id}`}
               onClick={(e) => handleNavClick(link.id, e)}
-              className={`text-xs font-semibold tracking-wider transition-colors ${
-                activeSection === link.id ? 'text-[#ff009d]' : 'text-white hover:text-[#ff009d]'
-              }`}
+              className={`text-xs font-semibold tracking-wider transition-colors ${activeSection === link.id ? 'text-[#ff009d]' : 'text-white hover:text-[#ff009d]'
+                }`}
             >
               {link.name}
             </a>
@@ -84,7 +83,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <button 
+        <button
           className="lg:hidden text-white hover:text-[#ff009d] transition-colors"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
@@ -97,19 +96,18 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-[#0a0a0a] border-b border-white/10 py-6 px-6 flex flex-col space-y-4 shadow-xl">
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
+            <a
+              key={link.name}
               href={`#${link.id}`}
               onClick={(e) => handleNavClick(link.id, e)}
-              className={`text-sm font-semibold tracking-wider transition-colors ${
-                activeSection === link.id ? 'text-[#ff009d]' : 'text-white hover:text-[#ff009d]'
-              }`}
+              className={`text-sm font-semibold tracking-wider transition-colors ${activeSection === link.id ? 'text-[#ff009d]' : 'text-white hover:text-[#ff009d]'
+                }`}
             >
               {link.name}
             </a>
           ))}
           <div className="pt-4 mt-4 border-t border-white/10 flex flex-col">
-             <button className="border border-[#ff009d] text-white hover:bg-[#ff009d] hover:text-white px-6 py-3 rounded-full text-sm font-semibold tracking-widest transition-all text-center">
+            <button className="border border-[#ff009d] text-white hover:bg-[#ff009d] hover:text-white px-6 py-3 rounded-full text-sm font-semibold tracking-widest transition-all text-center">
               DESCARGAR APP
             </button>
           </div>
