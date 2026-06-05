@@ -27,7 +27,7 @@ export default function Zones() {
             <div className="relative min-h-[250px] md:min-h-full opacity-60 mix-blend-screen overflow-hidden">
               {/* Replace this div with an actual <img> of the obelisco map/cityscape */}
               <div className="absolute inset-0 bg-zinc-900 border-x border-zinc-800 flex items-center justify-center text-zinc-600 text-sm">
-                <img src="assets/img/bsas.png" alt="City Map" className="w-full h-full object-cover opacity-50" />
+                <img src="/assets/img/bsas.png" alt="City Map" className="w-full h-full object-cover opacity-50" />
               </div>
 
               {/* Gradients to fade edges into dark theme */}

@@ -64,7 +64,7 @@ export default function HowItWorks() {
           {/* Overlapping Image Container */}
           <div className="relative lg:absolute mt-[-40px] md:mt-0 md:top-[50%] md:-translate-y-1/2 right-0 w-[180px] sm:w-[220px] lg:w-[280px] xl:w-[320px] z-20 overflow-visible lg:transform lg:translate-x-4 flex justify-center">
             {/* Replace with actual overlapping app image */}
-            <img src="assets/img/celular.png" alt="App Preview" className="w-full h-auto object-contain drop-shadow-[0_0_30px_rgba(255,0,157,0.2)]" />
+            <img src="/assets/img/celular.png" alt="App Preview" className="w-full h-auto object-contain drop-shadow-[0_0_30px_rgba(255,0,157,0.2)]" />
             <div className="absolute inset-0 flex items-center justify-center text-zinc-500 font-bold tracking-widest text-xs z-10 text-center px-4 mix-blend-difference pointer-events-none">
             </div>
           </div>

@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         {/* Replace the src below with your actual background image asset */}
         <img
-          src="assets/img/fondo.png"
+          src="/assets/img/fondo.png"
           alt="Scooter and Bike Background"
           className="w-full h-full object-cover opacity-100 object-center"
         />

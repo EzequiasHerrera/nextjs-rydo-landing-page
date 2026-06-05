@@ -5,7 +5,7 @@ export default function Vehicles() {
     {
       category: "MOTOS ELÉCTRICAS",
       sub: "DE ÚLTIMA GENERACIÓN",
-      image: "assets/img/moto.png", // Replace with real asset
+      image: "/assets/img/moto.png", // Replace with real asset
       features: [
         "Autonomía extendida",
         "Velocidad máxima 45 km/h",
@@ -17,7 +17,7 @@ export default function Vehicles() {
     {
       category: "BICIS ELÉCTRICAS",
       sub: "DE ÚLTIMA GENERACIÓN",
-      image: "assets/img/bici.png", // Replace with real asset
+      image: "/assets/img/bici.png", // Replace with real asset
       features: [
         "Pedaleo asistido",
         "Autonomía hasta 80 km",

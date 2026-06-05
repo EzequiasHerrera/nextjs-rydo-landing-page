@@ -57,7 +57,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           {/* Logo placeholder, to be replaced by actual SVG later */}
-          <img src="assets/img/logotexto.png" alt="Logo" className="h-8 w-auto text-white object-contain" style={{ minWidth: '100px' }} />
+          <img src="/assets/img/logotexto.png" alt="Logo" className="h-8 w-auto text-white object-contain" style={{ minWidth: '100px' }} />
         </div>
 
         {/* Desktop Links */}

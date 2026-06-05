@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Logo Section */}
           <div className="lg:w-[20%] flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left lg:pr-8 lg:border-r border-white/5">
             <div className="flex flex-col items-center lg:items-start">
-              <img src="assets/img/logotexto.png" alt="Logo" className="h-10 w-auto object-contain mb-1" style={{ minWidth: '120px' }} />
+              <img src="/assets/img/logotexto.png" alt="Logo" className="h-10 w-auto object-contain mb-1" style={{ minWidth: '120px' }} />
               <div className="flex items-center space-x-1 mt-1">
                 <span className="w-1 h-3 bg-white/50"></span>
                 <span className="text-[10px] font-bold tracking-[0.2em] text-white/50 uppercase">Movete Distinto</span>

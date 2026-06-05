@@ -62,7 +62,7 @@ export default function PromoDownloads() {
             <div className="w-full md:w-1/3 flex justify-center md:justify-end items-center relative z-10">
               {/* Replace with actual helmet PNG asset with transparent bg */}
               <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center relative">
-                <img src="assets/img/casco.png" alt="Casco" className="w-full h-full object-contain" />
+                <img src="/assets/img/casco.png" alt="Casco" className="w-full h-full object-contain" />
               </div>
             </div>
 
